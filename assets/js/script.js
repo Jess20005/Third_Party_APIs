@@ -10,15 +10,16 @@ $(document).ready(function () {
     localStorage.setItem(time, value);
   });
 
-  localStorage.getItem("9AM");
-  localStorage.getItem("10AM");
-  localStorage.getItem("11AM");
-  localStorage.getItem("12PM");
-  localStorage.getItem("1PM");
-  localStorage.getItem("2PM");
-  localStorage.getItem("3PM");
-  localStorage.getItem("4PM");
-  localStorage.getItem("5PM");
+  $(".9AM").val(localStorage.getItem("9AM"));
+  $(".10AM").val(localStorage.getItem("10AM"));
+  $(".11AM").val(localStorage.getItem("11AM"));
+  $(".12PM").val(localStorage.getItem("12PM"));
+  $(".1PM").val(localStorage.getItem("1PM"));
+  $(".2PM").val(localStorage.getItem("2PM"));
+  $(".3PM").val(localStorage.getItem("3PM"));
+  $(".4PM").val(localStorage.getItem("4PM"));
+  $(".5PM").val(localStorage.getItem("5PM"));
 
-//   var events = JSON.parse(localStorage.getItem("9AM"));
+ 
+
 });
