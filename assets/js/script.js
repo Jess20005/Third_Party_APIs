@@ -1,7 +1,9 @@
+//sets todays date when the user opens calendar
 $(document).ready(function () {
   var today = moment()
   $('#currentDay').text(today.format("dddd, MMM Do h:mm a"));
 
+//stores information in local storage after clicking save button
   $(".saveBtn").on("click", function () {
     var value = $(this).siblings(".description").val();
     console.log(value);
@@ -10,6 +12,7 @@ $(document).ready(function () {
     localStorage.setItem(time, value);
   });
 
+  //users information stays on screen aftre refreshing
   $(".9AM").val(localStorage.getItem("9AM"));
   $(".10AM").val(localStorage.getItem("10AM"));
   $(".11AM").val(localStorage.getItem("11AM"));
