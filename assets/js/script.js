@@ -12,7 +12,7 @@ $(document).ready(function () {
     localStorage.setItem(time, value);
   });
 
-  //users information stays on screen aftre refreshing
+  //users information stays on screen after refreshing
   $(".9AM").val(localStorage.getItem("9AM"));
   $(".10AM").val(localStorage.getItem("10AM"));
   $(".11AM").val(localStorage.getItem("11AM"));

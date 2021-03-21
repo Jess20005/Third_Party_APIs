@@ -6,3 +6,6 @@
  Hopefully this can help simplify your day!
 
  Deployed site: https://jess20005.github.io/Third_Party_APIs/
+
+ GitHub repo:https://github.com/Jess20005/Third_Party_APIs
+ 
